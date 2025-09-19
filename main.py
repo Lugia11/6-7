@@ -1,7 +1,7 @@
 from pyscript import Element
 
-# Get the div element by its ID
+# Get the div element by its ID using PyScript Element
 output_div = Element("output")
 
-# Set the inner text of the div
+# Use the write method to set the inner content of the div
 output_div.write("Hello world")
